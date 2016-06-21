@@ -21,30 +21,12 @@ namespace Vidly.Controllers
          // return RedirectToAction("index","home", new {page=1, sortBy = "name"});
         }
 
-        public ActionResult Edit(int id)
-        {
-            return Content("id =" +id);
-        }
 
+        [Route("movies/released/{year}/{month:regex(\\d{4})}")]
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
         }
-
-        //movies
-        // ? sign here stands for nullable
-        public ActionResult Index(int? pageIndex, string sortBy)
-        {
-            if (!pageIndex.HasValue)
-            {
-                pageIndex = 1;
-            }
-
-            if (String.IsNullOrWhiteSpace(sortBy))
-            {
-                sortBy = "Name";
-            }
-            return Content(String.Format("pageIndex={0}&sortBy{1}", pageIndex, sortBy));
-        }
+        
     }
 }
