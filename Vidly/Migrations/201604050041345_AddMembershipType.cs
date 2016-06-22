@@ -18,20 +18,16 @@ namespace Vidly.Migrations
                     })
                 .PrimaryKey(t => t.Id);
             
-            AddColumn("dbo.Customers", "IsSubscribedToNewletter", c => c.Boolean(nullable: false));
             AddColumn("dbo.Customers", "MembershipTypeId", c => c.Byte(nullable: false));
             CreateIndex("dbo.Customers", "MembershipTypeId");
             AddForeignKey("dbo.Customers", "MembershipTypeId", "dbo.MembershipTypes", "Id", cascadeDelete: true);
-            DropColumn("dbo.Customers", "IsSubscribedToNewsletter");
         }
         
         public override void Down()
         {
-            AddColumn("dbo.Customers", "IsSubscribedToNewsletter", c => c.Boolean(nullable: false));
             DropForeignKey("dbo.Customers", "MembershipTypeId", "dbo.MembershipTypes");
             DropIndex("dbo.Customers", new[] { "MembershipTypeId" });
             DropColumn("dbo.Customers", "MembershipTypeId");
-            DropColumn("dbo.Customers", "IsSubscribedToNewletter");
             DropTable("dbo.MembershipTypes");
         }
     }
