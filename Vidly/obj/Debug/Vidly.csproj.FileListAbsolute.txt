@@ -86,3 +86,4 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubcribedToCustomer.reso
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
