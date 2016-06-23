@@ -1,1 +1,0 @@
-# vidly-mvc-5

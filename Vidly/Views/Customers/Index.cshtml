@@ -9,12 +9,10 @@
     different data structure, as long as it is enumerable, our view code
     will remain unchanged.
 *@
-
 @{
     ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <h2>Customers</h2>
 @if (!Model.Any())
 {
@@ -26,15 +24,13 @@ else
         <thead>
             <tr>
                 <th>Customer</th>
-                <th>Membership Type</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var customer in Model)
             {
                 <tr>
-                    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new {id = customer.Id}, null)</td>
-                    <td>@customer.MembershipType.Name</td>
+                    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
                 </tr>
             }
         </tbody>
