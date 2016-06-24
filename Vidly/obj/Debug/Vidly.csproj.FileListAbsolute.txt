@@ -91,3 +91,4 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.reso
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations._201604050626453_AddBirthdateToCustomer.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovie.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Genres.resources
