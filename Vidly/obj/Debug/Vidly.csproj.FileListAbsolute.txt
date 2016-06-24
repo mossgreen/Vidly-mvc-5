@@ -88,3 +88,5 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resou
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations._201604050626453_AddBirthdateToCustomer.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources
