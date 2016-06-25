@@ -92,3 +92,9 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations._201604050626453_AddBirthdate
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovie.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Genres.resources
+C:\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
