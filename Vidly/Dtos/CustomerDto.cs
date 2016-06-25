@@ -20,7 +20,7 @@ namespace Vidly.Dtos
 
         public byte MembershipTypeId { get; set; }
 
-        [Min18YesrsIfAMember]
+       // [Min18YesrsIfAMember]
         public DateTime? Birthdate { get; set; }
     }
 }
