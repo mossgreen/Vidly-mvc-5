@@ -19,7 +19,6 @@
         <tr>
             <th>Customer</th>
             <th>Discount Rate</th>
-            <th>Membership Type</th>
             <th>Delete</th>
         </tr>
     </thead>
@@ -29,11 +28,10 @@
 {
     <script>
 
-        $(document)
-            .ready(function() {
+        $(document).ready(function() {
                 $("#customers").DataTable({
                     ajax: {
-                        url: "/api/cusotmers",
+                        url: "/api/customers",
                         dataSrc:""
                     },
                     columns: [
@@ -49,7 +47,7 @@
                         {
                             data: "id",
                             render:function(data) {
-                                return "<button class='btn-link json-delete' data-customer-id=" +
+                                return "<button class='btn-link js-delete' data-customer-id=" +
                                     data +
                                     ">Delete</button>";
                             }
