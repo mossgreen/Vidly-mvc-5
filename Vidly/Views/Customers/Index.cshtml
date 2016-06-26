@@ -50,10 +50,9 @@ else
 
         $(document)
             .ready(function() {
-                $("#customers .js-delete")
-                    .on("click",
+                $("#customers ")
+                    .on("click",".js-delete",
                         function () {
-
                             var button = $(this);
                             bootbox.confirm("are you sure  you want to delete this customer?",
                                 function(result) {
@@ -66,10 +65,8 @@ else
                                             }
                                         });
                                     }
-
                                 });
                         });
-
             });
     </script>
 }
