@@ -102,3 +102,4 @@ C:\Projects\Vidly\Vidly\bin\AutoMapper.dll
 C:\Projects\Vidly\Vidly\bin\AutoMapper.xml
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneToApplicationUser.resources
