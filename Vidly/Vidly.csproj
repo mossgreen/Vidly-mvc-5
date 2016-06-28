@@ -271,6 +271,10 @@
     <Compile Include="Migrations\201606240028453_Genres.Designer.cs">
       <DependentUpon>201606240028453_Genres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606280239012_SeedUsers.cs" />
+    <Compile Include="Migrations\201606280239012_SeedUsers.Designer.cs">
+      <DependentUpon>201606280239012_SeedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -576,6 +580,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606240028453_Genres.resx">
       <DependentUpon>201606240028453_Genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606280239012_SeedUsers.resx">
+      <DependentUpon>201606280239012_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
