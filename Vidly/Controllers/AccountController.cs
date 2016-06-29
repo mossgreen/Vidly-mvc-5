@@ -486,7 +486,7 @@ namespace Vidly.Controllers
                     properties.Dictionary[XsrfKey] = UserId;
                 }
                 context.HttpContext.GetOwinContext().Authentication.Challenge(properties, LoginProvider);
-            }
+            }  
         }
         #endregion
     }
