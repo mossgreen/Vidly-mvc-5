@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Vidly.Models
 {
-    public class Min18YesrsIfAMember: ValidationAttribute
+    public class Min18YearsIfAMember: ValidationAttribute
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
