@@ -109,3 +109,5 @@ C:\Projects\Vidly\Vidly\bin\Glimpse.Core.dll
 C:\Projects\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Projects\Vidly\Vidly\bin\Glimpse.Mvc5.dll
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.BuildAnAPIForRentingMovies.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.BuildAnAPIForRentingMovies1.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvailableToMovie.resources

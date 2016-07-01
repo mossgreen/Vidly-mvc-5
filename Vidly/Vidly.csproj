@@ -311,6 +311,14 @@
     <Compile Include="Migrations\201607010055530_BuildAnAPIForRentingMovies.Designer.cs">
       <DependentUpon>201607010055530_BuildAnAPIForRentingMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607010059175_BuildAnAPIForRentingMovies1.cs" />
+    <Compile Include="Migrations\201607010059175_BuildAnAPIForRentingMovies1.Designer.cs">
+      <DependentUpon>201607010059175_BuildAnAPIForRentingMovies1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607010215447_AddNumberAvailableToMovie.cs" />
+    <Compile Include="Migrations\201607010215447_AddNumberAvailableToMovie.Designer.cs">
+      <DependentUpon>201607010215447_AddNumberAvailableToMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -633,6 +641,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607010055530_BuildAnAPIForRentingMovies.resx">
       <DependentUpon>201607010055530_BuildAnAPIForRentingMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607010059175_BuildAnAPIForRentingMovies1.resx">
+      <DependentUpon>201607010059175_BuildAnAPIForRentingMovies1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607010215447_AddNumberAvailableToMovie.resx">
+      <DependentUpon>201607010215447_AddNumberAvailableToMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
