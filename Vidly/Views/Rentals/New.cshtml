@@ -15,9 +15,14 @@
 
     <div class="form-group">
         <label>Movie</label>
-        <input type="text" value="" class="form-control"/>
+        <input type="text" value="" class="form-control" id="movie"/>
     </div>
 
+    <div class="row">
+        <div class="col-md-4 col-sm-4">
+            <ul id="movies" class="list-group"></ul>
+        </div>
+    </div>
     <button class="btn btn-primary">Submit</button>
 
 </form>
@@ -53,6 +58,48 @@
                         function(e, customer) {
                             vm.customerId = customer.id;
                         });
+
+                var movies = new Bloodhound({
+                    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+                    queryTokenizer: Bloodhound.tokenizers.whitespace,
+
+                    remote: {
+                        url: '/api/movies?query=%QUERY',
+                        wildcard: '%QUERY'
+                    }
+                });
+
+                $('#movie')
+                    .typeahead({
+                        minLength: 3,
+                        highlight: true
+                    },
+                    {
+                        name: 'movies',
+                        display: 'name',
+                        source: movies
+                    })
+                    .on("typeahead:select",
+                        function(e, movie) {
+                            $("#movie").append("<li class='list-group-item'>" + movie.name + "<li>");
+                            $("#movie").typeahead("val", "");
+                            vm.movieIds.push(movie.id);
+                        });
+
+                $("#newRental")
+                    .submit(function(e) {
+                        e.preventDefault();
+
+                        $.ajax({
+                                url: "/api/newRentals",
+                                method: "post",
+                                data: vm
+                            })
+                            .done(function() {
+                                console.log("done");
+                            })
+                            .fail(function() {});
+                    });
             });
     </script>
 }
