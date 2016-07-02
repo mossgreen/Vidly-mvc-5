@@ -12,6 +12,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ApplicationInsights.config">
       <publishTime>06/23/2016 20:31:30</publishTime>
     </File>
+    <File Include="AppSettings.config">
+      <publishTime>07/03/2016 10:27:36</publishTime>
+    </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>06/23/2016 20:31:09</publishTime>
     </File>
@@ -178,7 +181,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/23/2016 20:31:08</publishTime>
     </File>
     <File Include="bin/Vidly.dll">
-      <publishTime>07/03/2016 09:55:20</publishTime>
+      <publishTime>07/03/2016 10:30:27</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>06/23/2016 20:31:09</publishTime>
@@ -940,7 +943,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/23/2016 20:30:57</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/03/2016 09:55:20</publishTime>
+      <publishTime>07/03/2016 10:30:27</publishTime>
     </File>
   </ItemGroup>
 </Project>
