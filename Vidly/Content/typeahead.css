@@ -1,4 +1,7 @@
-﻿
+﻿.twitter-typeahead {
+    width: 300px;
+}
+
 .typeahead {
   background-color: #fff;
 }
@@ -54,6 +57,6 @@
   margin: 0;
 }
 
-.tt-contianer {
+.tt-container {
     position: relative;
 }

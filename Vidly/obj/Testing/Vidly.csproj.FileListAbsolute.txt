@@ -111,3 +111,4 @@ C:\Projects\Vidly\Vidly\obj\Testing\Vidly.Migrations.AddNumberAvailableToMovie.r
 C:\Projects\Vidly\Vidly\obj\Testing\Vidly.csproj.GenerateResource.Cache
 C:\Projects\Vidly\Vidly\obj\Testing\Vidly.dll
 C:\Projects\Vidly\Vidly\obj\Testing\Vidly.pdb
+C:\Projects\Vidly\Vidly\bin\Elmah.dll
